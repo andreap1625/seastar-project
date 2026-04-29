@@ -206,9 +206,20 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-#datasets
+# Datasets
 Coral-Detector-6/
+
+# Training runs
 runs/
+
+# Model weights
 models/
-.vscode/test_samples/
+
+# IDE
+.vscode/
+
+# Test samples (videos grandes)
+test_samples/
+
+# Output videos
 results/*.mp4
