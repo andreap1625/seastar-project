@@ -94,9 +94,9 @@ Sea stars possess **ocelli** at the tip of each arm: simple photoreceptor struct
 - Data storage: microSD (JSON diagnostics)
 - Estimated build cost: < $1,500 USD
 
-![System Architecture](docs\Screenshot 2026-04-25 030224.png)
-![Control and Sensors](docs\Screenshot 2026-04-25 030232.png)
-![Camera Modula](C:\Users\andre\seastar-project\docs\Screenshot 2026-04-25 030238.png)
+![System Architecture](docs/Screenshot 2026-04-25 030224.png)
+![Control and Sensors](docs/Screenshot 2026-04-25 030232.png)
+![Camera Modula](docs/Screenshot 2026-04-25 030238.png)
 
 ---
 
@@ -182,7 +182,7 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 Interactive demo built with Gradio — upload an underwater coral video and get real-time detection and classification results.
 
 <!-- AGREGAR: GIF del demo funcionando -->
-[Demo GIF](docs/output_pipeline_yt.gif)
+![Demo GIF](docs/output_pipeline_yt.gif)
 
 ```bash
 python demo/demo.py
