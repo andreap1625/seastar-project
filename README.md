@@ -3,7 +3,7 @@
 > **Bio-inspired underwater ROV for coral reef health monitoring in Latin America and the Caribbean**  
 > *Inspired by the nervous system and photoreceptors of the sea star (Asteroidea)*
 
-![ASTER Banner](docs\diagrama.jpeg)
+![ASTER Banner](docs/diagrama.jpeg)
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -182,14 +182,14 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 Interactive demo built with Gradio — upload an underwater coral video and get real-time detection and classification results.
 
 <!-- AGREGAR: GIF del demo funcionando -->
-[Demo GIF](docs\output_pipeline_yt.gif)
+[Demo GIF](docs/output_pipeline_yt.gif)
 
 ```bash
 python demo/demo.py
 ```
 
 <!-- AGREGAR: Screenshots de la interfaz Gradio -->
-![Gradio Interface](docs\gradio.png)
+![Gradio Interface](docs/gradio.png)
 
 ---
 
@@ -315,8 +315,8 @@ seastar-project/
 
 | Name | Role | Affiliation |
 |------|------|-------------|
-| <!-- NOMBRE --> | <!-- ROL --> | <!-- INSTITUCIÓN --> |
-| <!-- NOMBRE --> | <!-- ROL --> | <!-- INSTITUCIÓN --> |
+| Andrea Pipino | Project Leader | <!-- INSTITUCIÓN --> |
+| Lucia Cárdenas | Project Co - Leader | <!-- INSTITUCIÓN --> |
 
 📧 Contact: <!-- AGREGAR: email de contacto -->
 
