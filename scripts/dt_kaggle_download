@@ -1,0 +1,8 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("vencerlanz09/healthy-and-bleached-corals-image-classification")
+
+print("Path to dataset files:", path)
+
+#  C:\Users\andre\.cache\kagglehub\datasets\vencerlanz09\healthy-and-bleached-corals-image-classification\versions\1
