@@ -230,15 +230,16 @@ python src/train_efficientnet.py
 ### Run Inference on Video
 
 ```bash
-python src/inference.py --source test_samples/coral_reef_v.mp4
+python src/inference.py 
 ```
+Change source video on file.
 
 ### Run Full Pipeline
 
 ```bash
-python src/pipeline.py --source test_samples/coral_reef_v.mp4
+python src/pipeline.py 
 ```
-
+Change source video on file.
 ### Launch Demo
 
 ```bash
