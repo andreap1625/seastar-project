@@ -62,7 +62,10 @@ Sea stars possess **ocelli** at the tip of each arm: simple photoreceptor struct
 
 ## 🏗️ System Architecture
 
-![ASTER Banner](docs/diagrama.jpeg)
+<!-- ![ASTER Banner](docs/diagrama.jpeg) -->
+<p align="center">
+  <img src="docs/diagrama.jpeg" width="500">
+</p>
 
 **Key specs:**
 - Operating depth: 0.5 – 2 meters
@@ -72,9 +75,22 @@ Sea stars possess **ocelli** at the tip of each arm: simple photoreceptor struct
 - Data storage: microSD (JSON diagnostics)
 - Estimated build cost: < $1,500 USD
 
-![System Architecture](docs/arquitectura.png)
-![Control and Sensors](docs/control_sensores.png)
-![Camera Modula](docs/camara.png)
+<!-- ![System Architecture](docs/arquitectura.png) -->
+<p align="center">
+  <img src="docs/arquitectura.png" width="500">
+</p>
+
+
+<!-- ![Control and Sensors](docs/control_sensores.png) -->
+<p align="center">
+  <img src="docs/control_sensores.png" width="500">
+</p>
+
+
+<!-- ![Camera Modula](docs/camara.png) -->
+<p align="center">
+  <img src="docs/camara.png" width="500">
+</p>
 
 ---
 
@@ -118,7 +134,7 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 <!-- AGREGAR: Matriz de confusión -->
 <!-- ![Confusion Matrix](results/confusion_matrix.png) -->
 
----
+<!-- --- -->
 
 <!-- ## 🎨 Robot Design
 
@@ -138,7 +154,10 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 Interactive demo built with Gradio — upload an underwater coral video and get real-time detection and classification results.
 
 <!-- AGREGAR: GIF del demo funcionando -->
-![Demo GIF](docs/output_pipeline_yt.gif)
+<!-- ![Demo GIF](docs/output_pipeline_yt.gif) -->
+<p align="center">
+  <img src="docs/output_pipeline_yt.gif" width="700">
+</p>
 
 ```bash
 python demo/demo.py
@@ -148,7 +167,7 @@ python demo/demo.py
 <!-- ![Gradio Interface](docs/gradio.png) -->
 
 <p align="center">
-  <img src="docs/gradio.png" width="250">
+  <img src="docs/gradio.png" width="500">
 </p>
 
 
