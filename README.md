@@ -131,29 +131,7 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 <!-- AGREGAR: Diagrama de módulo de cámara sellado -->
 <!-- ![Camera Module](docs/camera_module.png) -->
 
---- -->
-
-<!-- ## 📊 Results
-
-### YOLOv8n — Coral Detection
-
-| Metric | Value |
-|--------|-------|
-| mAP50 | <!-- COMPLETAR --> |
-| mAP50-95 | <!-- COMPLETAR --> |
-| Precision | <!-- COMPLETAR --> |
-| Recall | <!-- COMPLETAR --> |
-
-### EfficientNet-B0 — Health Classification
-
-| Metric | Value |
-|--------|-------|
-| Accuracy | <!-- COMPLETAR --> |
-| F1-Score (Healthy) | <!-- COMPLETAR --> |
-| F1-Score (Bleached) | <!-- COMPLETAR --> |
-| Best Val Accuracy | <!-- COMPLETAR --> |
-
---- -->
+---
 
 ## 🖥️ Demo
 
@@ -167,7 +145,12 @@ python demo/demo.py
 ```
 
 <!-- AGREGAR: Screenshots de la interfaz Gradio -->
-![Gradio Interface](docs/gradio.png)
+<!-- ![Gradio Interface](docs/gradio.png) -->
+
+<p align="center">
+  <img src="docs/gradio.png" width="250">
+</p>
+
 
 ---
 
@@ -290,6 +273,7 @@ This project was submitted to the **Ideatón de Innovación Inspirada en la Inte
 - [CAF — Development Bank of Latin America and the Caribbean](https://www.caf.com/)
 
 As part of the **Nature's Intelligence Studio**, launched at COP30, Belém, Brazil.
+
 
 
 ---
