@@ -151,23 +151,23 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 
 ## 🖥️ Demo
 
-Interactive demo built with Gradio — upload an underwater coral video and get real-time detection and classification results.
+
 
 <!-- AGREGAR: GIF del demo funcionando -->
 <!-- ![Demo GIF](docs/output_pipeline_yt.gif) -->
 <p align="center">
-  <img src="docs/output_pipeline_yt.gif" width="700">
+  <img src="docs/output_pipeline_yt.gif" width="900">
 </p>
 
 ```bash
 python demo/demo.py
 ```
-
+Interactive demo built with Gradio — upload an underwater coral image and get detection and classification results.
 <!-- AGREGAR: Screenshots de la interfaz Gradio -->
 <!-- ![Gradio Interface](docs/gradio.png) -->
 
 <p align="center">
-  <img src="docs/gradio.png" width="500">
+  <img src="docs/gradio.png" width="700">
 </p>
 
 
