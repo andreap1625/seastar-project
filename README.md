@@ -3,7 +3,7 @@
 > **Bio-inspired underwater ROV for coral reef health monitoring in Latin America and the Caribbean**  
 > *Inspired by the nervous system and photoreceptors of the sea star (Asteroidea)*
 
-![ASTER Banner](docs/diagrama.jpeg)
+
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -62,29 +62,7 @@ Sea stars possess **ocelli** at the tip of each arm: simple photoreceptor struct
 
 ## 🏗️ System Architecture
 
-```
-┌─────────────────────────────────────────────────────┐
-│                    ASTER ROV                        │
-│                                                     │
-│  [Cam 1]   [Cam 2]   [Cam 3]   [Cam 4]             │
-│  IMX500    IMX500    IMX500    IMX500               │
-│  (local    (local    (local    (local               │
-│  inference) inference) inference) inference)        │
-│      └─────────┬─────────┘                         │
-│           [Arducam HAT]                             │
-│                │                                    │
-│         [Raspberry Pi 4]  ←── Nerve Ring            │
-│         (Integration +                              │
-│          JSON output)                               │
-│                │                                    │
-│    ┌───────────┴────────────┐                       │
-│  [Arduino Mega]          [microSD]                  │
-│  6x Thrusters            JSON logs                  │
-│  4x LED strips                                      │
-│  MS5837 (depth)                                     │
-│  MPU-9250 (IMU)                                     │
-└─────────────────────────────────────────────────────┘
-```
+![ASTER Banner](docs/diagrama.jpeg)
 
 **Key specs:**
 - Operating depth: 0.5 – 2 meters
@@ -94,9 +72,9 @@ Sea stars possess **ocelli** at the tip of each arm: simple photoreceptor struct
 - Data storage: microSD (JSON diagnostics)
 - Estimated build cost: < $1,500 USD
 
-![System Architecture](docs/Screenshot 2026-04-25 030224.png)
-![Control and Sensors](docs/Screenshot 2026-04-25 030232.png)
-![Camera Modula](docs/Screenshot 2026-04-25 030238.png)
+![System Architecture](docs/arquitectura.png)
+![Control and Sensors](docs/control_sensores.png)
+![Camera Modula](docs/camara.png)
 
 ---
 
@@ -142,7 +120,7 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 
 ---
 
-## 🎨 Robot Design
+<!-- ## 🎨 Robot Design
 
 <!-- AGREGAR: Planos técnicos del chasis -->
 <!-- ![Technical Drawing](docs/technical_drawing.png) -->
@@ -153,9 +131,9 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 <!-- AGREGAR: Diagrama de módulo de cámara sellado -->
 <!-- ![Camera Module](docs/camera_module.png) -->
 
----
+--- -->
 
-## 📊 Results
+<!-- ## 📊 Results
 
 ### YOLOv8n — Coral Detection
 
@@ -175,7 +153,7 @@ nn.Linear(1280, 1024) → BatchNorm → ReLU → Dropout(0.4) → nn.Linear(1024
 | F1-Score (Bleached) | <!-- COMPLETAR --> |
 | Best Val Accuracy | <!-- COMPLETAR --> |
 
----
+--- -->
 
 ## 🖥️ Demo
 
@@ -289,10 +267,6 @@ seastar-project/
 ├── demo/                            # Gradio web interface
 │   └── demo.py
 │
-├── test_samples/                    # Sample videos for testing
-│   ├── coral_reef_v.mp4
-│   └── coral_reef_yt.mp4
-│
 ├── results/                         # Metrics and visualizations
 │   ├── confusion_matrix.png
 │   └── training_curves.png
@@ -309,19 +283,6 @@ seastar-project/
 
 ---
 
-## 👥 Team
-
-<!-- AGREGAR: Foto del equipo (opcional) -->
-
-| Name | Role | Affiliation |
-|------|------|-------------|
-| Andrea Pipino | Project Leader | <!-- INSTITUCIÓN --> |
-| Lucia Cárdenas | Project Co - Leader | <!-- INSTITUCIÓN --> |
-
-📧 Contact: <!-- AGREGAR: email de contacto -->
-
----
-
 ## 🏆 Competition
 
 This project was submitted to the **Ideatón de Innovación Inspirada en la Inteligencia de la Naturaleza 2025**, organized by:
@@ -330,15 +291,6 @@ This project was submitted to the **Ideatón de Innovación Inspirada en la Inte
 
 As part of the **Nature's Intelligence Studio**, launched at COP30, Belém, Brazil.
 
----
-
-## 📚 References
-
-<!-- AGREGAR: Referencias completas en formato que prefieras -->
-
-- Moura, R.L. et al. (2016). An extensive reef system at the Amazon River mouth. *Science Advances.*
-- Benyus, J.M. (1997). *Biomimicry: Innovation Inspired by Nature.* Morrow.
-- <!-- AGREGAR: resto de referencias del documento -->
 
 ---
 
